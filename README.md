@@ -1,4 +1,4 @@
-# send-cotreset.ps1
+# Send-CoTReset.ps1
 
 A powershell script to interrupt WinTAK/ATAK devices and reset them to send Cursor on Target (CoT) message traffic.
 
@@ -10,6 +10,7 @@ The cot type sent is 'y-a-f-A' which 'should' not render a point on the map. Onl
 ### example
 ```powershell
   PS C:\> Send-CotReset.ps1
+  
 ```
 
 Sends a CoT message to the default SA port fo 239.2.3.1 port 6969
